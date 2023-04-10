@@ -4,7 +4,7 @@ setup(
     name='e01loss',
     version='1.0.1',
     description='A Python library for solving the exact 0-1 loss linear classification problem',
-    url='https://github.com/XiHegrt/Exact-ML-Algorithms',
+    url='https://github.com/XiHegrt/E01Loss',
     author='Xi He',
     author_email='xihegrt@gmail.com',
     long_description=open('README.md').read(),
