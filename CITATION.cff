@@ -17,7 +17,7 @@ authors:
 identifiers:
   - type: doi
     value: 10.5281/zenodo.7814259
-repository-code: 'https://github.com/XiHegrt/Exact-ML-Algorithms'
+repository-code: 'https://github.com/XiHegrt/E01Loss'
 abstract: >-
   Algorithms for solving the linear classification problem
   have a long history, dating back at least to 1936 with
