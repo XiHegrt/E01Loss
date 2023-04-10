@@ -1,0 +1,49 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Exact 0-1 loss linear classification algorithms
+message: 'If you use this software, please cite it as below.'
+type: software
+authors:
+  - given-names: Xi
+    family-names: He
+    email: xihegrt@gmail.com
+    orcid: 'https://orcid.org/0000-0002-4284-9067'
+  - given-names: Little
+    family-names: Max A.
+    email: maxl@mit.edu
+    orcid: 'https://orcid.org/0000-0002-1507-3822'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.7814259
+repository-code: 'https://github.com/XiHegrt/Exact-ML-Algorithms'
+abstract: >-
+  Algorithms for solving the linear classification problem
+  have a long history, dating back at least to 1936 with
+  Ronald Fisher's discriminant analysis. For linearly
+  separable data, many algorithms can obtain the exact
+  solution to the corresponding 0-1 loss classification
+  problem efficiently, but for data which is not linearly
+  separable, it has been shown that this problem, in full
+  generality, is NP-hard. Alternative approaches all involve
+  approximations of some kind, including the use of
+  surrogates for the 0-1 loss (for example, the hinge or
+  logistic loss) or approximate combinatorial search, none
+  of which can be guaranteed to solve the problem exactly.
+  Finding efficient algorithms to obtain an exact i.e.
+  globally optimal solution for the 0-1 loss linear
+  classification problem with fixed dimension D, is a
+  long-standing problem. The E01Loss library provides Python
+  implementations of several novel polynomial-time
+  algorithms (currently: incremental combinatorial
+  generation, incremental combinatorial purging, cell
+  enumeration) which are provably correct and practical for
+  small to medium-sized problems.
+keywords:
+  - Interpretable machine learning
+  - 0-1 loss linear classification
+  - Combinatorial optimization
+license: CC-BY-SA-4.0
+version: 1.0.0
+date-released: '2023-04-10'
