@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='e01loss',
-    version='0.0.8',
+    version='1.0.1',
     description='A Python library for solving the exact 0-1 loss linear classification problem',
     url='https://github.com/XiHegrt/Exact-ML-Algorithms',
     author='Xi He',
