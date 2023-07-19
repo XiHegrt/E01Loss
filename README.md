@@ -73,7 +73,7 @@ This (small) experiment suggests the following:
 
  * E01-ICG-purge is slower than E01-CE in this case, because the synthetic classification problem is very difficult (the globally optimal exact 0-1 loss value is about 33%, hence the approximate upper bound used in E01-ICG-purge will not be very tight)
 
-   ![complexity_analysis](complexity_analysis.png)
+   ![complexity_analysis](https://github.com/XiHegrt/E01Loss/blob/main/complexity_analysis.png)
 
 
 
