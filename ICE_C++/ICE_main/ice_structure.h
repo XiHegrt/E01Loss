@@ -296,42 +296,7 @@ class ICE {
          *
          * @return None.
          */
-        void nextavailable(); // needs unit test
-
-        /**
-         * Filter out nonviable configurations from the 'nonviable' vector.
-         *
-         * This method filters out nonviable configurations from the 'nonviable' vector. It uses the
-         * erase-remove idiom to remove all occurrences of -1 in the 'nonviable' vector, effectively
-         * eliminating nonviable configurations. The method iterates through the 'nonviable' vector
-         * and removes any element that matches the value -1, leaving only viable configurations in
-         * the vector.
-         *
-         * Note: In this context, viable configurations are those that have not been removed during
-         * the ICE process and are still considered valid for further processing.
-         *
-         * @return None.
-         */
-        void filtnonviable();
-
-        /**
-         * Determine the best model configuration.
-         *
-         * This method determines the best model configuration between the two provided configurations
-         * 'result' and 'c2'. The 'result' configuration is updated based on the following conditions:
-         *
-         * 1. If the 'result' model's weight vector 'w' is empty, it is updated to 'c2'.
-         * 2. If 'c2' model's weight vector 'w' is empty, no action is taken.
-         * 3. If the 'result' model's loss 'model.l' is less than 'c2.model.l', no action is taken.
-         * 4. Otherwise, 'result' is updated to 'c2'.
-         *
-         * The 'result' will represent the best model configuration after this method is executed,
-         * considering the loss values of both configurations and their existing 'w' values.
-         *
-         * @param result A pointer to the result model configuration to be updated as the best.
-         * @param c2 The second model configuration to be compared with 'result'.
-         * @return None.
-         */
+   
         void best(Config* result, const Config& c2);
 
         /**
